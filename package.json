@@ -1,0 +1,19 @@
+{
+  "name"       : "express-google-trends",
+  "version"    : "0.1.0",
+  "description": "",
+  "main"       : "index.js",
+  "scripts": {
+    "start" : "nodemon index.js"
+  },
+  "author" : "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser"      : "^1.19.0",
+    "express"          : "^4.17.1",
+    "google-trends-api": "^4.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
